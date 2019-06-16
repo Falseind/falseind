@@ -2,27 +2,28 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>False Ind</title>
+	<title>False Ind - Ophir Ilzetzki - Symphony no. 1</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" type="image/ico" href="images/favicon.ico" />
 	<!-- Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,600,700' rel='stylesheet' type='text/css' />
+	<link href='https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700' rel='stylesheet' type='text/css' />
 
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/audiojs.css" />
 
 	<!-- Javascript Files -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.flexslider.min.js"></script>
+	<script src="js/audiojs/audio.js"></script>
 	<script src="js/scripts.js"></script>
 
 </head>
-<body class="index">
+<body>
 
 	<!-- TOP-BAR -->
 	<div id="top-bar">
@@ -49,13 +50,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a>
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Awaaz" /></a>
 				</div>
 
 				<!-- Navigation links -->
 				<div class="collapse navbar-collapse" id="main-nav">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
+
 						<li><a href="releases.html">Releases</a></li>
 
 						<li><a href="artists.html">Artists</a></li>
@@ -69,93 +71,53 @@
 				</div><!-- /.navbar-collapse -->
 			</div>
 		</nav>
+	</header>
 
+	<section id="breadcrumbs">
+		<div class="container"><a href="index.html">Home</a> <i class="fa fa-angle-double-right"></i> <a href="albums.html">Albums</a> <i class="fa fa-angle-double-right"></i> Album Details</div>
+	</section>
+
+	<section id="tagline">
+		<div class="container">
+			<h2>Ophir Ilzetzki</h2>
+			<div class="out_of_h3">
+			<h3 class="h3">Symphony no. 1</h3>
+			</div>
+		</div>
+	</section>
 
 	<!-- main content area -->
 	<main>
-		<section id="events">
+	  <section id="content">
 			<div class="container">
-				<div class="row">
-					<!-- upcoming events -->
-					<div class="col-md-6 upcoming-events">
-						<h2>News</span></h2>
-						<div class="event">
-
-							  <p>
-								<h4> <iframe style="border: 0; width: 400px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2960968581/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/tracklist=false/tracks=1684486605/esig=7f0fcf3bbfb55f3eaa79d6308b33253a/" seamless><a href="http://falseindustries.bandcamp.com/album/ingress">Ingress by Yair Etziony</a></iframe> <h4>
-							  </p>
-							  <p>
-							  </p>
-							    <p>
-								<h4>Ingress exposes routes from outside the cluster to services within the cluster. 
-									  Traffic routing is controlled by rules defined on the Ingress resource.  <br>
-								            </h4>
-							  </p>
-							  </p>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-6 event">
-
-
-
+				<div class="row artist-info">
+					<!-- artist info -->
+					<div class="col-sm-4">
+						<div class="latest-content">
+							<div class="latest-content-image">
+								<img src="images/releases/esftas.jpg" alt="" />
 							</div>
 
-							<div class="col-sm-6 event">
-
-							</div>
 						</div>
+
+
 					</div>
 
-					<!-- from the blog -->
+					<div class="col-sm-8 col-md-7 col-sm-offset-1">
+						<!-- <h3>Biography Heading of Artist</h3> -->
 
-						     <div class="col-md-6 latest-albums">
-						<h2>Latest <span>Albums</span> <a href="releases.html" class="view-all"><span>View All</span> <i class="fa fa-angle-double-right view-all-icon"></i></a></h2>
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="latest-content">
-									<a href="esftas.html">
-										<div class="latest-content-image">
-											<img src="images/releases/sftas.jpg" alt="" />
-										</div>
-										<div class="latest-content-info">
+					  
 
-											<div class="meta">
+						<!-- <h4>Smaller heading</h4> -->
 
-												<h4>Yair Etziony</h4>
-												<p>ingress</p>
-											</div>
-										</div>
-									</a>
-								</div>
-							</div>
 
-							<div class="col-sm-6">
-								<div class="latest-content">
-									<a href="minoa.html">
-										<div class="latest-content-image">
-											<img src="images/releases/minoa.jpg" alt="" />
-										</div>
-										<div class="latest-content-info">
-											<div class="meta">
-												<h4>Maps and Diagrams</h4>
-												<p>Azurescens</p>
-											</div>
-										</div>
-									</a>
-								</div>
-							</div>
+
+
+
+							</ul>
 						</div>
-					</div>
-						<div class="row recent-post">
-
-						</div>
-
 					</div>
 				</div>
-			</div>
-		</section>
-ß
 
 	</main> <!-- end main content area -->
 
@@ -171,8 +133,8 @@
 			<div class="row">
 				<div class="footer-col col-sm-4">
 					<h3>About False Industries</h3>
-                    <p>False Industries, is a music label from Berlin Germnay.
-					<p>We normally release minimal electronic music and heartful experiments.</p>
+					<p>False Industries, is a boutique label from Berlin.</p>
+
 				</div>
 
 				<div class="footer-col col-sm-4 col-sm-2">
@@ -181,7 +143,7 @@
 						<div class="col-xs-6 links-col">
 							<ul class="links">
 								<li><a href="index.html">News</a></li>
-								<li><a href="releases.html">Releases</a></li>
+								<li><a href="albums.html">Releases</a></li>
 								<li><a href="artists.html">Artists</a></li>
 								<li><a href="events.html">Events</a></li>
 								<li><a href="links.html">Friends</a></li>
@@ -233,16 +195,4 @@
 	</footer> <!-- end footer -->
 
 </body>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-22658213-1', 'false-ind.com');
-  ga('send', 'pageview');
-
-</script>
-
 </html>
